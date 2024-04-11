@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #ffff;
+    height: 15dvh;
+    padding: 0 2rem;
+    position:sticky;
+    top: 0;
+    max-width: 100dvw;
+}
+
+header a{
+  color: black;
+}
+
+.tasty-logo{
+    width:5rem;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar p{
+    margin:0 0.5rem;
+}
+
+.welcome-slide{
+    padding:0 2rem;
+    background-color: #ebf7ff;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+   
+    max-width: 100dvw;
+}
+
+.welcome-slide *{
+  margin: 2rem 0;
+}
+
+
+.welcome-slide .ws-text{
+ width: 30rem;
+
+}
+
+.welcome-slide div *{
+    margin-bottom: 0.5rem;
+}
+
+.welcome-slide img{
+  border-radius: 20px;
+  max-width: 50%;
+}
+
+.welcome-slide div button{
+  padding: 1rem;
+  border-radius:5px;
+  border: none;
+  background-color:#ffff;
+  box-shadow: -2px 5px 10px 0.5px rgb(190, 190, 190) ;
+
+}
+
+.welcome-slide div button:hover{
+  background-color:#990000;
+  color: #ffff;
+}
+
+
+.food-section{
+    padding: 2rem;
+}
+
+.food-section h2{
+margin: 2rem 0;
+text-align: center;
+}
+
+.food-section .dishes{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: space-between;
+}
+
+  .food-section .dishes .dish{
+    width: 22rem;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 1rem;
+  }
+
+.food-section .dishes .dish img{
+    width: 22rem;
+  }  
+
+.food-section .dishes .dish .details{
+    display: flex;
+    justify-content: space-around;
+    margin:2rem 0;
+  }
+
+  .food-section .dishes .dish .details .more-details{
+    width: 60%;
+    text-wrap: wrap;
+  }
+
+  .food-section .dishes .dish .details .more-details h3{
+    margin-bottom: 0.5rem;
+  }
+
+  .food-section .dishes .dish .details button{
+    height: 2rem;
+    padding: 0 0.5rem;
+    border-radius:5px;
+    border: none;
+    background-color:#990000;
+    color: #ffff;
+  }
+
+.food-section .dishes .dish .details button:hover{
+  background-color:#ffff;
+  color: #990000;
+}
+  
+footer{
+  width: 100%;
+  background-color: black;
+  color: #ffff;
+  display: flex;
+  justify-content:space-around;
+  padding: 2rem 0;
+}
+
+footer a{
+  color: #ffff;
+} 
+
+
+footer .col h2{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+footer .col .contact-us{
+  display: flex;
+  justify-content: center;
+  /* margin: 0 2rem; */
+}
+
+footer .col .contact-us div{
+ margin: 0 2rem;
+}
+
+footer .col .contact-us div *{
+  margin: 0.5rem 0;
+ }
+
+@media screen and (max-width:797px){
+  .welcome-slide img{
+    display: none;
+  }
+}
+ 
+ 
