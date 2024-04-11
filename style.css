@@ -75,7 +75,8 @@ header a{
   padding: 1rem;
   border-radius:5px;
   border: none;
-  background-color:#ffff;
+  background-color:#990000;
+  color: white;
   box-shadow: -2px 5px 10px 0.5px rgb(190, 190, 190) ;
 
 }
@@ -178,8 +179,17 @@ footer .col .contact-us div *{
  }
 
 @media screen and (max-width:797px){
+.welcome-slide{
+  justify-content: center;
+}
+
   .welcome-slide img{
     display: none;
+  }
+
+  footer .col .contact-us{
+   flex-direction: column;
+    /* margin: 0 2rem; */
   }
 }
  
